@@ -1,5 +1,4 @@
 <title>basic site - @pagetitle</title>
 
-@cssinclude(site/css/pagestyle.css)
-@cssinclude(site/css/dropmenu.css)
-
+<link rel='stylesheet' type='text/css' href='@pathtofile(site/css/dropmenu.css)'>
+<link rel='stylesheet' type='text/css' href='@pathtofile(site/css/pagestyle.css)'>
