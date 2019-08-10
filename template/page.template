@@ -4,9 +4,11 @@
     </head>
 
     <body>
-        @input(template/menu.content)
+		<div class="content">
+		    @input(template/menu.content)
 
-        @inputcontent
+		    @inputcontent
+		</div>
     </body>
 </html>
 
