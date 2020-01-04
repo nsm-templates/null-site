@@ -7,7 +7,7 @@
 		<div class="content">
 		    @input(template/menu.content)
 
-		    @inputcontent
+		    @content()
 		</div>
     </body>
 </html>
